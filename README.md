@@ -8,7 +8,7 @@
 
 <p>Бот позволяет зайти в чат с помощью&nbsp;мессенджера <a href="https://web.telegram.org/">TELEGRAM</a>, получить роль и иметь доступ к&nbsp;файлом которые связаны&nbsp;со стажеровкой.</p>
 
-<p>Бот имеет свой нативный язык для запросов [[Описание языка]]</p>
+<p>Бот имеет свой нативный язык для запросов <a href="https://docs.google.com/document/d/1XjhPVwcTO01BjQjNCbaltwel9BgP44OWwSxMqo72bwQ/edit" Описание языка </a></p>
 
 <p>&nbsp;</p>
 
