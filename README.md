@@ -64,8 +64,6 @@
 <span class="pl-s1">python</span> <span class="pl-s1">pip</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">r</span> <span class="pl-s1">requirements</span>.<span class="pl-s1">txt</span></pre>
 </div>
 
-<h1>Скачать источники: <a href="https://github.com/RucardTomsk/INTERNSHIP_MANAGEMEN_-BOT">GITHUB</a></h1>
-
 <hr />
 <h1>Для запуска на <a href="https://www.heroku.com/">Heroku</a> необходимо</h1>
 
