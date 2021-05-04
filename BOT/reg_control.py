@@ -1,6 +1,7 @@
 import telebot
 import pymysql
 from time import sleep
+from telebot import types
 
 
 def select_code(message,db_cur):
@@ -27,6 +28,10 @@ def check_codes(message,db_cur,bot):
 		sleep(0.1)
 		db_cur[0].commit()
 		bot.send_message(message.chat.id,"Код введен верно!\nВаш ID сохранен и роль выдана")
+		keyboard = types.InlineKeyboardMarkup()
+		button = types.InlineKeyboardButton(text="Меню", callback_data="menu")
+		keyboard.add(button)
+		bot.send_message(message.chat.id,"-----",reply_markup=keyboard)
 	else:
 		bot.send_message(message.chat.id,"Код введен неверно!\nПопробуйте еще раз")
 		bot.register_next_step_handler(message,check_codes,db_cur,bot)
